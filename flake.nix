@@ -11,7 +11,8 @@
         coreutils = pkgs.coreutils;
         sed = pkgs.gnused;
         texlive = (pkgs.texlive.combine {
-          inherit (pkgs.texlive) scheme-small mathpazo babel babel-english;
+          inherit (pkgs.texlive)
+            scheme-small gentium-tug mathpazo babel babel-english;
         });
       in {
         defaultPackage = derivation {
