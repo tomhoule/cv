@@ -10,7 +10,7 @@
         src = pkgs.nix-gitignore.gitignoreSource [ ] ./.;
         texlive = pkgs.texlive.combine {
           inherit (pkgs.texlive)
-            scheme-small gentium-tug mathpazo babel babel-english;
+            scheme-small gentium-tug mathpazo babel babel-english comicneue ly1;
         };
       in
       {
@@ -20,6 +20,7 @@
           nativeBuildInputs = [ texlive ];
 
           buildPhase = ''
+            export HOME=$TMPDIR # fontenc writes to $HOME
             pdflatex \
               cv_tom_houle.tex \
               -interaction=batchmode \
