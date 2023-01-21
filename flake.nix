@@ -7,21 +7,32 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages."${system}";
-        src = ./cv_tom_houle.tex;
-        coreutils = pkgs.coreutils;
-        sed = pkgs.gnused;
-        texlive = (pkgs.texlive.combine {
+        src = pkgs.nix-gitignore.gitignoreSource [ ] ./.;
+        texlive = pkgs.texlive.combine {
           inherit (pkgs.texlive)
             scheme-small gentium-tug mathpazo babel babel-english;
-        });
-      in {
-        defaultPackage = derivation {
+        };
+      in
+      {
+        defaultPackage = pkgs.stdenv.mkDerivation {
           name = "tomhoule-cv";
-          builder = "${pkgs.bash}/bin/bash";
-          args = [ ./builder.sh ];
-          system = system;
 
-          inherit src coreutils sed texlive;
+          nativeBuildInputs = [ texlive ];
+
+          buildPhase = ''
+            pdflatex \
+              cv_tom_houle.tex \
+              -interaction=batchmode \
+              -output-format=pdf \
+              -halt-on-error
+          '';
+
+          installPhase = ''
+            mkdir $out
+            mv cv_tom_houle.pdf $out/
+          '';
+
+          inherit src;
         };
         devShell = pkgs.mkShell {
           buildInputs = [ texlive pkgs.watchexec ];
