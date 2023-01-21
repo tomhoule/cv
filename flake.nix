@@ -9,8 +9,7 @@
         pkgs = nixpkgs.legacyPackages."${system}";
         src = pkgs.nix-gitignore.gitignoreSource [ ] ./.;
         texlive = pkgs.texlive.combine {
-          inherit (pkgs.texlive)
-            scheme-small gentium-tug mathpazo babel babel-english comicneue ly1;
+          inherit (pkgs.texlive) scheme-small babel babel-english comicneue ly1;
         };
       in
       {
