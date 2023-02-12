@@ -37,7 +37,7 @@
         devShell = pkgs.mkShell {
           buildInputs = [ texlive pkgs.watchexec ];
           shellHook = ''
-            alias dev="watchexec --clear --restart --watch ./cv_tom_houle.tex 'pdflatex -halt-on-error ./cv_tom_houle.tex'";
+            alias dev="watchexec --clear --restart -e tex 'pdflatex -halt-on-error ./cv_tom_houle.tex'";
           '';
         };
       });
