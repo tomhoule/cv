@@ -8,23 +8,17 @@
       let
         pkgs = nixpkgs.legacyPackages."${system}";
         src = pkgs.nix-gitignore.gitignoreSource [ ] ./.;
-        texlive = pkgs.texlive.combine {
-          inherit (pkgs.texlive) scheme-small babel babel-english comicneue ly1;
-        };
+
+        inherit (pkgs) typst mkShell stdenv;
       in
       {
-        defaultPackage = pkgs.stdenv.mkDerivation {
+        defaultPackage = stdenv.mkDerivation {
           name = "tomhoule-cv";
 
-          nativeBuildInputs = [ texlive ];
+          nativeBuildInputs = [ typst ];
 
           buildPhase = ''
-            export HOME=$TMPDIR # fontenc writes to $HOME
-            pdflatex \
-              cv_tom_houle.tex \
-              -interaction=batchmode \
-              -output-format=pdf \
-              -halt-on-error
+            typst compile cv_tom_houle.typ
           '';
 
           installPhase = ''
@@ -34,11 +28,9 @@
 
           inherit src;
         };
-        devShell = pkgs.mkShell {
-          buildInputs = [ texlive pkgs.watchexec ];
-          shellHook = ''
-            alias dev="watchexec --clear --restart -e tex 'pdflatex -halt-on-error ./cv_tom_houle.tex'";
-          '';
+
+        devShell = mkShell {
+          buildInputs = [ typst ];
         };
       });
 }
