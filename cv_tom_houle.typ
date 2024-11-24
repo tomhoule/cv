@@ -1,5 +1,6 @@
 #import "@preview/basic-resume:0.1.4": *
 
+
 #let name = "Tom Houlé"
 #let location = "Berlin, DE"
 #let email = "tom@tomhoule.com"
@@ -47,7 +48,8 @@
 )
 - Introduced data oriented design
 - Introduced fine grained authorization
-- Lead features, wrote RFCs
+- Lead features, wrote RFCs, docs. #lorem(30)
+- Constant contact with customers. #lorem(20)
 
 #work(
   title: "Senior Engineer, Tech Lead",
@@ -57,8 +59,10 @@
 )
 - Schema Team, Prisma Schema Language, ORM Team. 400x the number of users of the ORM in that time.
 - Lead features, wrote RFCs
+- #lorem(30)
 - Proposed and ran a database engineering learning group
 - Hiring.
+- #lorem(30)
   // Since January 2023, engineer on the Client Team, responsible for the Query
   // Engine behind Prisma Client.
 
@@ -84,7 +88,7 @@
 )
 - Full stack: Ruby on Rails, React. Introduced TypeScript, GraphQL.
 - Rust, contract templating and 
-- Hiring, one-on-ones
+- Hiring, one-on-ones #lorem(40)
     // Second engineering hire in a Berlin B2B SaaS startup. Stack:~Rails, React,
     // Postgres, Redis. Introduced and drove adoption of
     // TypeScript, GraphQL. Strong collaboration practices: regular pair programming, systematic, thorough code reviews, regular 1:1s, TDD, product-oriented thinking.
