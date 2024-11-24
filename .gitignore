@@ -3,3 +3,6 @@
 *.log
 *.aux
 *.out
+
+/.direnv
+/.envrc
