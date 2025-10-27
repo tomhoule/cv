@@ -1,8 +1,3 @@
 /result
-*.pdf
-*.log
-*.aux
-*.out
-
 /.direnv
 /.envrc
