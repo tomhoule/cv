@@ -8,12 +8,14 @@
 #let graphql-conf-talks = "TODO"
 
 // #set text(font: "Crimson Pro", size: 12pt, weight: "light")
-#set text(font: "Crimson Pro", size: 12pt)
+// #set text(font: "Crimson Pro", size: 12pt)
 // #set text(font: "Vollkorn", size: 11pt)
 // #set text(font: "EB Garamond", size: 12pt)
-// #set text(font: "Tex Gyre Pagella", size: 9pt)
+// #set text(font: "Tex Gyre Pagella", size: 11pt)
 // #set text(font: "Source Serif Pro", size: 9pt)
 // #set text(font: "Inter", size: 8pt)
+#set text(font: "STIX Two Text", size: 10pt)
+
 
 #set page(paper: "a4", margin: (x: 1.6cm, y: 1.3cm), numbering: "1/1", number-align: right)
 
