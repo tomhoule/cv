@@ -183,9 +183,9 @@
   Long time *Rust* user who saw the language and ecosystem develop from the very early stages. I have been writing Rust code regularly since 2016–2017, and it has been my primary language at work since I joined Prisma in 2019. You can find more and less recent samples of my code on GitHub.
 ]
 
-//   // More recently, I am having fun with \textbf{formal methods}. Decent working
-//   // grasp of proof assistants (Lean, Coq, Agda) and the underlying theory.  Not
-//   // as knowledgeable, but interested in automatic verification.
+#interest[
+  Keen interest in *formal methods*. Decent working grasp of proof assistants (Lean, Coq, Agda) and the underlying theory. Not as knowledgeable, but interested in automatic verification.
+]
 
 //   // Familiar and comfortable with modern development and project management
 //   // practices, more DevOps-related concerns like infrastructure management
