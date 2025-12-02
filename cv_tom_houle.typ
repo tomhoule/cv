@@ -28,6 +28,7 @@
   ]
 }
 
+#set underline(offset: 2pt)
 #let href = (dest, body) => link(dest, underline(body))
 
 #let work(title: "", location: "", company: "", start-date: "", end-date: "", body) = {
