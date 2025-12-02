@@ -5,7 +5,7 @@
 #let personal-site = "tomhoule.com"
 
 #let graphql-composition-crate = "https://crates.io/crates/graphql-composition"
-#let graphql-conf-talks = "TODO"
+#let graphql-conf-talks = "https://www.tomhoule.com/2025/graphql-conf-amsterdam/"
 
 // #set text(font: "Crimson Pro", size: 12pt, weight: "light")
 // #set text(font: "Crimson Pro", size: 12pt)
