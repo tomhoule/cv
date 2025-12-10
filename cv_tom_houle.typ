@@ -94,6 +94,7 @@
 - Second Rust hire at Prisma. Started on the Scala to Rust migration (Prisma 1 to Prisma 2), then worked on the Rust components of the ORM over four years. Weekly downloads grew #href("https://npm-stat.com/charts.html?package=prisma&from=2019-09-01&to=2023-10-01")[about 115x] over that time frame.
 - Three years as Tech Lead of the Schema Team, responsible for the Prisma Schema Language and its implementation, and the whole database schema management space.
 - Subsequently, worked on the Client Team, responsible for the Query Engine behind Prisma Client.
+- Frequently worked on database drivers and connection pools, using advanced debugging and profiling tools (Wireshark, debuggers, perf, dhat, tokio console, etc.). That lead to improved connection management, reduced cold start times on serverless, many fixed bugs and generally a better experience for users of the ORM.
 - Owned the size project leading to considerable binary size reductions (in particular for serverless use cases), and spearheaded the WebAssembly migration effort.
 - Reworked the Prisma Schema Language (PSL) implementation to use traditional programming language parsing techniques, massively improving performance and ease of implementing validations.
 - Built the language intelligence infrastructure for the PSL LSP server and the PSL formatter.
@@ -105,6 +106,8 @@
 ]
 
 // Frequent collaboration with external stakeholders (users, framework// authors, database drivers). Significant amount of discovery and feature// design work. Representing Prisma on the board of the GraphQL Foundation.
+
+#v(1cm)
 
 #work(
   title: "Engineer, Senior Engineer, Tech Lead",
