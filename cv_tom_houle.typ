@@ -74,7 +74,7 @@
 )[
 - Small, high ownership and high velocity team building a BaaS platform on Rust, Wasm and Cloudflare Workers, then an enterprise focused Federated GraphQL solution.
 - Regular tight collaboration with enterprise customers to shape solutions for their enterprise GraphQL deployments.
-- Deep involvement in MCP and LLM routing solutions design.
+- Deep involvement in MCP and LLM routing solutions design.j
 - Participated in the design and implementation of Grafbase Gateway, a GraphQL Federation Gateway that demonstrated best-in-class runtime and query planning performance. Co-developed the WebAssembly (WASI preview 2) based extensions system.
 - Developed features in close contact with Enterprise customers. For example a revamp of the authentication and authorization architecture of the Grafbase platform for self-hosted scenarios, with deep integration with the enterprise's identity provider and policy engines (Cedar, AuthZEN).
 - Led the design and development of schema evolution features, like schema proposals and usage-based (ClickHouse) breaking change analysis.
@@ -200,7 +200,7 @@
 
 == Skills
 
-- *Languages*: English, French, German, Chinese (HSK level 6 in 2015), Japanese (JLPT N1 in 2015)
+- *Languages*: English, French, German, Chinese (HSK level 6 in 2014), Japanese (JLPT N1 in 2014)
 - *Programming languages*: Rust, SQL, Lean, TypeScript, Python, Ruby, Scala, C, C++, etc.
 - *Technologies*: Database Engineering, Linux, Kubernetes, Docker, Linux, DuckDB, GraphQL, etc.
 
