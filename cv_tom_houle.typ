@@ -79,7 +79,7 @@
 - Led the design and development of schema evolution features, like schema proposals and usage-based (ClickHouse) breaking change analysis.
 - Started and maintained the #href(graphql-composition-crate)[first and only Rust implementation of federated GraphQL composition].
 - Engaged with GraphQL working groups (Composite Schemas) and gave #href(graphql-conf-talks)[talks] at GraphQL Conf 2025.
-- Owned Kubernetes deployments of the Grafbase platform, monitoring, integrations, OAuth/OIDC, ...
+- Owned the public Kubernetes (AWS EKS) deployment of the Grafbase platform: monitoring, integrations, OAuth/OIDC, ...
 - Designed and implemented a #link("https://github.com/grafbase/extensions/tree/main/extensions/grpc")[GraphQL <-> gRPC translation layer] in WebAssembly and a #link("https://github.com/grafbase/extensions/tree/main/cli/protoc-gen-grafbase-subgraph")[companion protoc plugin].
 ]
 
