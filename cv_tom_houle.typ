@@ -73,10 +73,9 @@
   end-date: "Present",
 )[
 - Small, high ownership and high velocity team building a BaaS platform on Rust, Wasm and Cloudflare Workers, then an enterprise focused Federated GraphQL solution.
-- Regular tight collaboration with enterprise customers to shape solutions for their enterprise GraphQL deployments.
 - Deep involvement in MCP and LLM routing solutions design.j
 - Participated in the design and implementation of Grafbase Gateway, a GraphQL Federation Gateway that demonstrated best-in-class runtime and query planning performance. Co-developed the WebAssembly (WASI preview 2) based extensions system.
-- Developed features in close contact with Enterprise customers. For example a revamp of the authentication and authorization architecture of the Grafbase platform for self-hosted scenarios, with deep integration with the enterprise's identity provider and policy engines (Cedar, AuthZEN).
+- Regular close collaboration with enterprise customers to shape and implement solutions for their enterprise GraphQL deployments. For example a revamp of the authentication and authorization architecture of the Grafbase platform for self-hosted scenarios, with deep integration with the enterprise's identity provider and policy engines (Cedar, AuthZEN).
 - Led the design and development of schema evolution features, like schema proposals and usage-based (ClickHouse) breaking change analysis.
 - Started and maintained the #href(graphql-composition-crate)[first and only Rust implementation of federated GraphQL composition].
 - Engaged with GraphQL working groups (Composite Schemas) and gave #href(graphql-conf-talks)[talks] at GraphQL Conf 2025.
@@ -107,7 +106,7 @@
 
 // Frequent collaboration with external stakeholders (users, framework// authors, database drivers). Significant amount of discovery and feature// design work. Representing Prisma on the board of the GraphQL Foundation.
 
-#v(1cm)
+#pagebreak()
 
 #work(
   title: "Engineer, Senior Engineer, Tech Lead",
