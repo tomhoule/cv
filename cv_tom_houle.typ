@@ -66,11 +66,19 @@
 == Relevant Professional Experience
 
 #work(
+  title: "Rust Engineer",
+  location: "Remote",
+  company: href("https://zed.dev")[Zed Industries],
+  start-date: "Feb. 2026",
+  end-date: "Present",
+)[]
+
+#work(
   title: "Lead Engineer",
   location: "Remote",
   company: href("https://grafbase.com")[Grafbase],
   start-date: "Oct. 2023",
-  end-date: "Present",
+  end-date: "Feb. 2026",
 )[
 - Small, high ownership and high velocity team building a BaaS platform on Rust, Wasm and Cloudflare Workers, then an enterprise focused Federated GraphQL solution.
 - Deep involvement in MCP and LLM routing solutions design.j
@@ -200,7 +208,7 @@
 == Skills
 
 - *Languages*: English, French, German, Chinese (HSK level 6 in 2014), Japanese (JLPT N1 in 2014)
-- *Programming languages*: Rust, SQL, Lean, TypeScript, Python, Ruby, Scala, C, C++, etc.
+- *Programming languages*: Rust, Zig, SQL, Lean, TypeScript, Python, Ruby, Scala, C, C++, etc.
 - *Technologies*: Database Engineering, Linux, Kubernetes, Docker, Linux, DuckDB, GraphQL, etc.
 
 == Degrees
